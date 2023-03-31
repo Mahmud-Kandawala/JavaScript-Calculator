@@ -16,7 +16,7 @@ User Story #4: My calculator should contain a clickable element containing a . (
 
 User Story #5: My calculator should contain a clickable element with an `id="clear"`.
 
-User Story #6: My calculator should contain an element to display values with a corresponding id="display".
+User Story #6: My calculator should contain an element to display values with a corresponding `id="display"`.
 
 User Story #7: At any time, pressing the clear button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of display.
 
@@ -38,7 +38,9 @@ User Story #15: My calculator should have several decimal places of precision wh
 
 Note On Calculator Logic: It should be noted that there are two main schools of thought on calculator input logic: immediate execution logic and formula logic. Our example utilizes formula logic and observes order of operation precedence, immediate execution does not. Either is acceptable, but please note that depending on which you choose, your calculator may yield different results than ours for certain equations (see below example). As long as your math can be verified by another production calculator, please do not consider this a bug.
 
-``EXAMPLE: 3 + 5 x 6 - 2 / 4 =``
+`
+EXAMPLE: 3 + 5 x 6 - 2 / 4 =
+`
 
 Immediate Execution Logic: `11.5`
 Formula/Expression Logic: `32.5`
