@@ -2,74 +2,74 @@ body {
     background: rgb(188, 188, 188);
   }
   
-  .pointer {
+.pointer {
     cursor: pointer;
     cursor: hand;
   }
   
-  button:focus {
+button:focus {
     outline: none;
   }
   
-  #calc {
+#calc {
     margin-top: 0.5rem;
     margin-bottom: 4rem;
   }
   
-  .blackMain {
+.blackMain {
     background-color: #000000;
   }
   
-  .blackTop {
+.blackTop {
     background-color: #000000;
   }
   
-  .blackBottom {
+.blackBottom {
     background-color: #000000;
   }
   
-  .color {
+.color {
     background-color: #000000;
   }
   
-  #calcTitle {
+#calcTitle {
     color: white;
     min-width: 100%;
   }
   
-  #display {
+#display {
     border: none;
     height: 3rem;
     color: white;
     font-size: 2rem;
   }
   
-  #displayMini {
+#displayMini {
     border: none;
     height: 3rem;
     color: white;
     font-size: 0.9rem;
   }
   
-  @media (min-width: 576px) {
+@media (min-width: 576px) {
     #calc {
       margin-top: 1rem;
     }
   }
   
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     #calc {
       margin-top: 2rem;
     }
   }
   
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
     #calc {
       margin-top: 3rem;
     }
   }
   
-  @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     #calc {
       margin-top: 4rem;
     }
